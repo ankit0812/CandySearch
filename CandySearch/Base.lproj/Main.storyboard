@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fC2-V8-a5f">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Candy Search-->
+        <scene sceneID="HXg-iE-XFE">
+            <objects>
+                <tableViewController id="DdG-wu-g7T" customClass="CandyTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="jOA-mA-KP1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" text="" showsScopeBar="YES" id="pLh-kM-aGm">
+                            <rect key="frame" x="0.0" y="64" width="600" height="88"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <scopeButtonTitles>
+                                <string>All</string>
+                                <string>Chocolate</string>
+                                <string>Hard</string>
+                                <string>Others</string>
+                            </scopeButtonTitles>
+                            <connections>
+                                <outlet property="delegate" destination="DdG-wu-g7T" id="8HF-Sc-ofs"/>
+                            </connections>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="GZN-Vf-22X">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GZN-Vf-22X" id="EUj-Y4-aSd">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="DdG-wu-g7T" id="oLT-XP-KB5"/>
+                            <outlet property="delegate" destination="DdG-wu-g7T" id="ISI-au-7Yx"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Candy Search" id="NZe-so-kDW">
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="Cny-iO-eOd">
+                            <connections>
+                                <action selector="goToSearch:" destination="DdG-wu-g7T" id="Qa7-jG-FXB"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="candySearchBar" destination="pLh-kM-aGm" id="fo9-xp-1wQ"/>
+                        <outlet property="searchDisplayController" destination="t1n-o8-oGr" id="DDF-LN-TdX"/>
+                        <segue destination="jvk-3b-kts" kind="show" identifier="detailView" id="1A2-gQ-0Xf"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ztJ-m7-Zgc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="t1n-o8-oGr">
+                    <connections>
+                        <outlet property="delegate" destination="DdG-wu-g7T" id="2hc-a5-7Ff"/>
+                        <outlet property="searchBar" destination="pLh-kM-aGm" id="wcx-q5-r9N"/>
+                        <outlet property="searchContentsController" destination="DdG-wu-g7T" id="uVU-Uh-9Bu"/>
+                        <outlet property="searchResultsDataSource" destination="DdG-wu-g7T" id="pgX-Ms-63r"/>
+                        <outlet property="searchResultsDelegate" destination="DdG-wu-g7T" id="Ti2-6K-Fjw"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="1164" y="398"/>
+        </scene>
+        <!--Candy Detail View Controller-->
+        <scene sceneID="Sm5-kw-e7h">
+            <objects>
+                <viewController id="jvk-3b-kts" customClass="CandyDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IOg-hw-Vv1"/>
+                        <viewControllerLayoutGuide type="bottom" id="HT3-dd-9Q4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Knt-fQ-PL4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-- Chocolate Name Here--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ytg-4O-lpN">
+                                <rect key="frame" x="129" y="486" width="342" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="L1u-zf-CBN">
+                                <rect key="frame" x="129" y="155" width="342" height="290"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="L1u-zf-CBN" firstAttribute="top" secondItem="IOg-hw-Vv1" secondAttribute="bottom" constant="91" id="Qkm-fP-Xr9"/>
+                            <constraint firstAttribute="trailing" secondItem="L1u-zf-CBN" secondAttribute="trailing" constant="129" id="YDo-2Z-O4n"/>
+                            <constraint firstItem="ytg-4O-lpN" firstAttribute="leading" secondItem="Knt-fQ-PL4" secondAttribute="leading" constant="129" id="ZU5-TT-60n"/>
+                            <constraint firstAttribute="trailing" secondItem="ytg-4O-lpN" secondAttribute="trailing" constant="129" id="cBR-ju-bba"/>
+                            <constraint firstItem="ytg-4O-lpN" firstAttribute="top" secondItem="L1u-zf-CBN" secondAttribute="bottom" constant="41" id="lYv-Yt-YQg"/>
+                            <constraint firstItem="HT3-dd-9Q4" firstAttribute="top" secondItem="ytg-4O-lpN" secondAttribute="bottom" constant="93" id="mCL-ie-i6x"/>
+                            <constraint firstItem="L1u-zf-CBN" firstAttribute="leading" secondItem="Knt-fQ-PL4" secondAttribute="leading" constant="129" id="qPZ-LW-57d"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="candyImage" destination="L1u-zf-CBN" id="EsU-5t-HYa"/>
+                        <outlet property="candyName" destination="ytg-4O-lpN" id="1uO-cz-sgR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="baK-m5-qmF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1892" y="398"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="aYX-48-cy2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fC2-V8-a5f" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Dip-yx-fSi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="DdG-wu-g7T" kind="relationship" relationship="rootViewController" id="Xm2-ub-Obw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5QO-J0-iM9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="352" y="398"/>
+        </scene>
+    </scenes>
+</document>

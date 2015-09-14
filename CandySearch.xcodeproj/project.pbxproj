@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		937039D11BA6D9C0006457BA /* CandyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937039D01BA6D9C0006457BA /* CandyDetailViewController.m */; };
+		937A65031BA141D20034A314 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 937A65021BA141D20034A314 /* main.m */; };
+		937A65061BA141D20034A314 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 937A65051BA141D20034A314 /* AppDelegate.m */; };
+		937A650C1BA141D20034A314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937A650A1BA141D20034A314 /* Main.storyboard */; };
+		937A650E1BA141D20034A314 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937A650D1BA141D20034A314 /* Images.xcassets */; };
+		937A65111BA141D20034A314 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937A650F1BA141D20034A314 /* LaunchScreen.xib */; };
+		937A651D1BA141D20034A314 /* CandySearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 937A651C1BA141D20034A314 /* CandySearchTests.m */; };
+		937A65431BA15C750034A314 /* CandyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937A65421BA15C750034A314 /* CandyTableViewController.m */; };
+		937A65461BA15C890034A314 /* Candy.m in Sources */ = {isa = PBXBuildFile; fileRef = 937A65451BA15C890034A314 /* Candy.m */; };
+		937A65531BA15E9C0034A314 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 937A65491BA15E9C0034A314 /* 1.jpg */; };
+		937A65541BA15E9C0034A314 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 937A654A1BA15E9C0034A314 /* 2.jpg */; };
+		937A65551BA15E9C0034A314 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 937A654B1BA15E9C0034A314 /* 3.jpg */; };
+		937A65561BA15E9C0034A314 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 937A654C1BA15E9C0034A314 /* 4.jpg */; };
+		937A65571BA15E9C0034A314 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 937A654D1BA15E9C0034A314 /* 5.jpg */; };
+		937A65581BA15E9C0034A314 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 937A654E1BA15E9C0034A314 /* 6.jpg */; };
+		937A65591BA15E9C0034A314 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 937A654F1BA15E9C0034A314 /* 7.jpg */; };
+		937A655A1BA15E9C0034A314 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 937A65501BA15E9C0034A314 /* 8.jpg */; };
+		937A655B1BA15E9C0034A314 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 937A65511BA15E9C0034A314 /* 9.jpg */; };
+		937A655C1BA15E9C0034A314 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 937A65521BA15E9C0034A314 /* 10.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		937A65171BA141D20034A314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 937A64F51BA141D20034A314 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 937A64FC1BA141D20034A314;
+			remoteInfo = CandySearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		937039CF1BA6D9C0006457BA /* CandyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandyDetailViewController.h; sourceTree = "<group>"; };
+		937039D01BA6D9C0006457BA /* CandyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandyDetailViewController.m; sourceTree = "<group>"; };
+		937A64FD1BA141D20034A314 /* CandySearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CandySearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		937A65011BA141D20034A314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937A65021BA141D20034A314 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		937A65041BA141D20034A314 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		937A65051BA141D20034A314 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		937A650B1BA141D20034A314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		937A650D1BA141D20034A314 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		937A65101BA141D20034A314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		937A65161BA141D20034A314 /* CandySearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandySearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		937A651B1BA141D20034A314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937A651C1BA141D20034A314 /* CandySearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CandySearchTests.m; sourceTree = "<group>"; };
+		937A65411BA15C750034A314 /* CandyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandyTableViewController.h; sourceTree = "<group>"; };
+		937A65421BA15C750034A314 /* CandyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandyTableViewController.m; sourceTree = "<group>"; };
+		937A65441BA15C890034A314 /* Candy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Candy.h; sourceTree = "<group>"; };
+		937A65451BA15C890034A314 /* Candy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Candy.m; sourceTree = "<group>"; };
+		937A65491BA15E9C0034A314 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		937A654A1BA15E9C0034A314 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		937A654B1BA15E9C0034A314 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		937A654C1BA15E9C0034A314 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		937A654D1BA15E9C0034A314 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		937A654E1BA15E9C0034A314 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		937A654F1BA15E9C0034A314 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		937A65501BA15E9C0034A314 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		937A65511BA15E9C0034A314 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		937A65521BA15E9C0034A314 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		937A64FA1BA141D20034A314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937A65131BA141D20034A314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		937A64F41BA141D20034A314 = {
+			isa = PBXGroup;
+			children = (
+				937A64FF1BA141D20034A314 /* CandySearch */,
+				937A65191BA141D20034A314 /* CandySearchTests */,
+				937A64FE1BA141D20034A314 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		937A64FE1BA141D20034A314 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				937A64FD1BA141D20034A314 /* CandySearch.app */,
+				937A65161BA141D20034A314 /* CandySearchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		937A64FF1BA141D20034A314 /* CandySearch */ = {
+			isa = PBXGroup;
+			children = (
+				937A65481BA15E860034A314 /* Images */,
+				937A65041BA141D20034A314 /* AppDelegate.h */,
+				937A65051BA141D20034A314 /* AppDelegate.m */,
+				937A650A1BA141D20034A314 /* Main.storyboard */,
+				937A650D1BA141D20034A314 /* Images.xcassets */,
+				937A650F1BA141D20034A314 /* LaunchScreen.xib */,
+				937A65441BA15C890034A314 /* Candy.h */,
+				937A65451BA15C890034A314 /* Candy.m */,
+				937A65411BA15C750034A314 /* CandyTableViewController.h */,
+				937A65421BA15C750034A314 /* CandyTableViewController.m */,
+				937A65001BA141D20034A314 /* Supporting Files */,
+				937039CF1BA6D9C0006457BA /* CandyDetailViewController.h */,
+				937039D01BA6D9C0006457BA /* CandyDetailViewController.m */,
+			);
+			path = CandySearch;
+			sourceTree = "<group>";
+		};
+		937A65001BA141D20034A314 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				937A65011BA141D20034A314 /* Info.plist */,
+				937A65021BA141D20034A314 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		937A65191BA141D20034A314 /* CandySearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				937A651C1BA141D20034A314 /* CandySearchTests.m */,
+				937A651A1BA141D20034A314 /* Supporting Files */,
+			);
+			path = CandySearchTests;
+			sourceTree = "<group>";
+		};
+		937A651A1BA141D20034A314 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				937A651B1BA141D20034A314 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		937A65481BA15E860034A314 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				937A65491BA15E9C0034A314 /* 1.jpg */,
+				937A654A1BA15E9C0034A314 /* 2.jpg */,
+				937A654B1BA15E9C0034A314 /* 3.jpg */,
+				937A654C1BA15E9C0034A314 /* 4.jpg */,
+				937A654D1BA15E9C0034A314 /* 5.jpg */,
+				937A654E1BA15E9C0034A314 /* 6.jpg */,
+				937A654F1BA15E9C0034A314 /* 7.jpg */,
+				937A65501BA15E9C0034A314 /* 8.jpg */,
+				937A65511BA15E9C0034A314 /* 9.jpg */,
+				937A65521BA15E9C0034A314 /* 10.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		937A64FC1BA141D20034A314 /* CandySearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 937A65201BA141D20034A314 /* Build configuration list for PBXNativeTarget "CandySearch" */;
+			buildPhases = (
+				937A64F91BA141D20034A314 /* Sources */,
+				937A64FA1BA141D20034A314 /* Frameworks */,
+				937A64FB1BA141D20034A314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CandySearch;
+			productName = CandySearch;
+			productReference = 937A64FD1BA141D20034A314 /* CandySearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		937A65151BA141D20034A314 /* CandySearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 937A65231BA141D20034A314 /* Build configuration list for PBXNativeTarget "CandySearchTests" */;
+			buildPhases = (
+				937A65121BA141D20034A314 /* Sources */,
+				937A65131BA141D20034A314 /* Frameworks */,
+				937A65141BA141D20034A314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				937A65181BA141D20034A314 /* PBXTargetDependency */,
+			);
+			name = CandySearchTests;
+			productName = CandySearchTests;
+			productReference = 937A65161BA141D20034A314 /* CandySearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		937A64F51BA141D20034A314 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = optimusmac4;
+				TargetAttributes = {
+					937A64FC1BA141D20034A314 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					937A65151BA141D20034A314 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 937A64FC1BA141D20034A314;
+					};
+				};
+			};
+			buildConfigurationList = 937A64F81BA141D20034A314 /* Build configuration list for PBXProject "CandySearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 937A64F41BA141D20034A314;
+			productRefGroup = 937A64FE1BA141D20034A314 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				937A64FC1BA141D20034A314 /* CandySearch */,
+				937A65151BA141D20034A314 /* CandySearchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		937A64FB1BA141D20034A314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937A655C1BA15E9C0034A314 /* 10.jpg in Resources */,
+				937A655A1BA15E9C0034A314 /* 8.jpg in Resources */,
+				937A65581BA15E9C0034A314 /* 6.jpg in Resources */,
+				937A650C1BA141D20034A314 /* Main.storyboard in Resources */,
+				937A65571BA15E9C0034A314 /* 5.jpg in Resources */,
+				937A65561BA15E9C0034A314 /* 4.jpg in Resources */,
+				937A65531BA15E9C0034A314 /* 1.jpg in Resources */,
+				937A65541BA15E9C0034A314 /* 2.jpg in Resources */,
+				937A65551BA15E9C0034A314 /* 3.jpg in Resources */,
+				937A65591BA15E9C0034A314 /* 7.jpg in Resources */,
+				937A655B1BA15E9C0034A314 /* 9.jpg in Resources */,
+				937A65111BA141D20034A314 /* LaunchScreen.xib in Resources */,
+				937A650E1BA141D20034A314 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937A65141BA141D20034A314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		937A64F91BA141D20034A314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937039D11BA6D9C0006457BA /* CandyDetailViewController.m in Sources */,
+				937A65431BA15C750034A314 /* CandyTableViewController.m in Sources */,
+				937A65461BA15C890034A314 /* Candy.m in Sources */,
+				937A65061BA141D20034A314 /* AppDelegate.m in Sources */,
+				937A65031BA141D20034A314 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937A65121BA141D20034A314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937A651D1BA141D20034A314 /* CandySearchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		937A65181BA141D20034A314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 937A64FC1BA141D20034A314 /* CandySearch */;
+			targetProxy = 937A65171BA141D20034A314 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		937A650A1BA141D20034A314 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				937A650B1BA141D20034A314 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		937A650F1BA141D20034A314 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				937A65101BA141D20034A314 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		937A651E1BA141D20034A314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		937A651F1BA141D20034A314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		937A65211BA141D20034A314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CandySearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		937A65221BA141D20034A314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CandySearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		937A65241BA141D20034A314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CandySearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CandySearch.app/CandySearch";
+			};
+			name = Debug;
+		};
+		937A65251BA141D20034A314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CandySearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CandySearch.app/CandySearch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		937A64F81BA141D20034A314 /* Build configuration list for PBXProject "CandySearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937A651E1BA141D20034A314 /* Debug */,
+				937A651F1BA141D20034A314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		937A65201BA141D20034A314 /* Build configuration list for PBXNativeTarget "CandySearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937A65211BA141D20034A314 /* Debug */,
+				937A65221BA141D20034A314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		937A65231BA141D20034A314 /* Build configuration list for PBXNativeTarget "CandySearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937A65241BA141D20034A314 /* Debug */,
+				937A65251BA141D20034A314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 937A64F51BA141D20034A314 /* Project object */;
+}
